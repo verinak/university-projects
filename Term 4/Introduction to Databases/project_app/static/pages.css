@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background: url('background6.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: scroll;
+}
+
+html, body{
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+
+
+}
+    
+    
+    header {
+    background-color: #983b6e;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    }
+    
+    h1 {
+    margin: 0;
+    font-size: 2rem;
+    }
+    
+    h3{
+      color: #fff;
+    }
+
+
+    .create-button {
+    background-color: #fff;
+    border: none;
+    color: #a22e6e;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    }
+    
+    .create-button:hover {
+    background-color: #a22e6e;
+    color: #fff;
+    }
+    
+    
+    main {
+    margin: 2rem auto;
+    max-width: 960px;
+    padding:60px;
+    background: transparent;
+    background-color: rgba(255,255,255,0.1);
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    }
+    
+    .page-table {
+      border-collapse: collapse;
+      width: 100%;
+  }
+  
+  .page-table th {
+      background-color: #983b6e;
+      color: #fff;
+      font-weight: normal;
+      text-align: left;
+      padding: 0.5rem;
+  }
+  .page-table td {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+  }
+  

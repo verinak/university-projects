@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="../static/stylesign.css">
+</head>
+   <body>
+     <section>
+         <div class="form-box">
+             <div class="form-value">
+               <h2>Log in</h2>
+              <form method="post">
+
+               {% if error %}
+               <p style="color: red;">{{ error }}</p>
+               {% endif %}
+             
+
+               <div class="inputbox">
+
+                   <input type="text" name="email" required>
+                   <label for="">Email</label>
+               </div>
+
+
+               <div class="inputbox">
+
+                   <input type="password" name="password" required>
+                   <label for="">Password</label>
+               </div>
+
+               <div class="field">
+                  <input type="submit" value="Log in">
+               </div>
+
+            </form>
+
+
+         </div>
+      </div>
+
+   </body>
+</html>

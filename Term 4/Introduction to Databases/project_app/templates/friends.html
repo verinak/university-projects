@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../static/pages.css">
+
+</head>
+<body>
+    <main>
+		<h3>Friends</h3>
+		<table class="page-table">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>About</th>
+				</tr>
+			</thead>
+			<tbody>
+				{% for name, about in friends %}
+				<tr>
+					<td>{{ name }}</td>
+					<td>{{ about }}</td>
+				</tr>
+				{% endfor %}
+			</tbody>
+		</table>
+		<br><br>
+		<h3>Others</h3>
+		<table class="page-table">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>About</th>
+					<th></th>
+				</tr>
+			</thead>
+			<tbody>
+				{% for name, about, userid in others %}
+				<tr>
+					<td>{{ name }}</a></td>
+					<td>{{ about }}</td>
+					<td><a href="/addfriend&lt;{{userid}}&gt;" class="button">Add Friend</a></td>
+				</tr>
+				{% endfor %}
+			</tbody>
+		</table>
+	</main>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="../static/stylesign.css">
+  <title>Register</title>
+</head>
+<body>
+    <section>
+        <div class="form-box">
+            <div class="form-value">
+                <form method="post">
+                  <h2>Profile infos</h2>
+                   {% if error %}
+                   <p style="color: red;">{{ error }}</p>
+                   {% endif %}
+
+
+                    <div class="inputbox">
+                        <input type="text" name="firstname" required>
+                        <label for="">firstname</label>
+                    </div>
+                    <div class="inputbox">
+                        <input type="text" name="lastname" required>
+                        <label for="">lastname</label>
+                    </div>
+                    <div class="inputbox">
+
+                        <input type="text" name="email" required>
+                        <label for="">Email</label>
+                    </div>
+
+                    <div class="inputbox">
+
+                        <input type="password" name="password" required>
+                        <label for="">Password</label>
+                    </div>
+
+                     <div class="inputbox">
+                         <ion-icon name="lock-closed-outline"></ion-icon>
+                         <input type="tel" name="phone" required>
+                         <label for="">Phone</label>
+                     </div>
+                       <p class="birthday">Birthday</p>
+                       <div class="birth_date">
+                        <input type="date" name="birthday" required>
+                       <div class="inputbox">
+
+                           <input type="text" name="about" required>
+                           <label for="">About</label>
+                       </div>
+                       <div class="field">
+                        <input type="submit", value= "Register">
+                       </div>
+
+                </form>
+            </div>
+        </div>
+
+            </div>
+    </section>
+
+</body>
+</html>

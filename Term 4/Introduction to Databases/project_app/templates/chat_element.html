@@ -1,0 +1,13 @@
+{% for c in chat %}
+    {% if (c[2] == myid) %}
+    <div class="sent">
+        <p>{{c[0]}}</p>
+        <span class="time-right">{{c[1]}}</span>
+    </div>
+    {% else %}
+    <div class="received">
+        <p>{{c[0]}}</p>
+        <span class="time-left">{{c[1]}}</span>
+    </div>
+    {% endif %}
+{% endfor %}

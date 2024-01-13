@@ -1,0 +1,7 @@
+{% for f in friends %}
+    <a href="/chat&lt;{{f[1]}}&gt;">
+        <div class="friend">
+            <p class="name">{{f[0]}}</p>
+        </div>
+    </a>
+{% endfor %}

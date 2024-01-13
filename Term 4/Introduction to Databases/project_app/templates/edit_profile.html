@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>edit profile</title>
+
+    <!-- Custom Css -->
+		<link rel="stylesheet" href="..\static\profilestyle.css">
+</head>
+<body>
+
+    <!-- Main -->
+    <div class="main">
+        <div class="card">
+            <div class="card-body">
+                <i class="fa fa-pen fa-xs edit"></i>
+                <table>
+                    <tbody>
+                        <form method="post">
+                          <label for="phone">Phone:</label>
+                          <input type="tel" id="phone" name="phone" value="{{ user[5] }}"><br><br>
+                          <label for="about">About:</label>
+                          <textarea id="about" name="about">{{ user[7] }}</textarea><br><br>
+                          <button type="submit">Save Changes</button>
+                        </form>
+                      </tr>
+                    </tbody>
+                </table>
+            </div>
+          </div>       
+        </div>
+  </body>
+</html>

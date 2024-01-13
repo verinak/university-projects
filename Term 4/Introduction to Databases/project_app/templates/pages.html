@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Pages</title>
+	<link rel="stylesheet" type="text/css" href="../static/pages.css">
+</head>
+<body>
+	<header>
+		<h1>My Pages</h1>
+        <a href="/createpage" class="button">Create Page</a>
+	</header>
+
+	<main>
+		<h3>Created Pages</h3>
+		<table class="page-table">
+			<thead>
+				<tr>
+					<th>Page</th>
+					<th>Company Email</th>
+					<th>Date of Creation</th>
+					<th>Total Likes</th>
+					<th></th>
+				</tr>
+			</thead>
+			<tbody>
+				{% for name, email, creation_date, total_likes,page_id in created %}
+				<tr>
+					<td>{{ name }}</td>
+					<td>{{ email }}</td>
+					<td>{{ creation_date }}</td>
+					<td>{{ total_likes }}</td>
+					<td><a href="/pageprofile&lt;{{page_id}}&gt;" class="button">Edit Your Page</a></td>
+				</tr>
+				{% endfor %}
+			</tbody>
+		</table>
+		<br><br>
+		<h3>Liked Pages</h3>
+		<table class="page-table">
+			<thead>
+				<tr>
+					<th>Page</th>
+					<th>Company Email</th>
+					<th>Date of Creation</th>
+					<th>Total Likes</th>
+					<th></th>
+				</tr>
+			</thead>
+			<tbody>
+				{% for name, email, creation_date, total_likes,page_id in liked %}
+				<tr>
+					<td>{{ name }}</a></td>
+					<td>{{ email }}</td>
+					<td>{{ creation_date }}</td>
+					<td>{{ total_likes }}</td>
+					<td><a href="/unlikepage&lt;{{page_id}}&gt;" class="button">Unlike</a></td>
+				</tr>
+				{% endfor %}
+			</tbody>
+		</table>
+		<br><br>
+		<h3>Other Pages</h3>
+		<table class="page-table">
+			<thead>
+				<tr>
+					<th>Page</th>
+					<th>Company Email</th>
+					<th>Date of Creation</th>
+					<th>Total Likes</th>
+					<th></th>
+				</tr>
+			</thead>
+			<tbody>
+				{% for name, email, creation_date, total_likes,page_id in other %}
+				<tr>
+					<td>{{ name }}</a></td>
+					<td>{{ email }}</td>
+					<td>{{ creation_date }}</td>
+					<td>{{ total_likes }}</td>
+					<td><a href="/likepage&lt;{{page_id}}&gt;" class="button">Like Page</a></td>
+				</tr>
+				{% endfor %}
+			</tbody>
+		</table>
+	</main>
+
+
+</body>
+</html>

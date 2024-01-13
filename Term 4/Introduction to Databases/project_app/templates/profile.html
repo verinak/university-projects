@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+
+    <!-- Custom Css -->
+		<link rel="stylesheet" href="..\static\profilestyle.css">
+
+</head>
+<body>
+
+    <!-- Main -->
+    <div class="main">
+        <div class="card">
+            <div class="card-body">
+                <i class="fa fa-pen fa-xs edit"></i>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Name</td>
+                            <td>:</td>
+                            <td>{{ user[1] }} {{ user[2] }}</td>
+                        </tr>
+                        <tr>
+                            <td>Email</td>
+                            <td>:</td>
+                            <td>{{ user[3] }}</td>
+                        </tr>
+                        <tr>
+                            <td>Phone</td>
+                            <td>:</td>
+                            <td>{{ user[5] }}</td>
+                        </tr>
+                        <tr>
+                            <td>Birthday</td>
+                            <td>:</td>
+                            <td>{{ user[6] }}</td>
+                        </tr>
+                        <tr>
+                            <td>About</td>
+                            <td>:</td>
+                            <td>{{ user[7] }}</td>
+                        </tr>
+                        <tr>
+                            <td><a href="/profile/edit">Edit Profile</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <h2>My Posts</h2>
+        <div class="card">
+            {% block body %}
+                    {% include 'post_layout.html' %}
+            {% endblock %}
+        </div>
+    </div>
+    <!-- End -->
+</body>
+</html>

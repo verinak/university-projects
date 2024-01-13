@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+  integrity="sha512-k6G4s6Gqo6IhVf9w3I5xo6T4lIqr3Ee8dF2C5Q6Qd1KqzKZvQk8M6s9yXIWtWt5LJx5g/0Z2lE6p3qzv1+PzgQ=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="../static/style2.css">
+  <link rel="stylesheet" href="../static/stylesign.css">
+
+  <title>Dashboard</title>
+
+</head>
+<body>
+
+
+
+    <div class="container">
+        <div class="left-panel">
+            <ul>
+                <li>
+                    <i class="fa fa-users"></i>
+                    <span class="profile"></span>
+                    <p><a href="/profile">My profile</a></p>
+                </li>
+
+
+                <li>
+                    <i class="fa fa-flag"></i>
+                    <p><a href="/pages" class="button">pages</a></p>
+
+                </li>
+
+                <li>
+                    <i class="fa fa-users"></i>
+                    <span class="friends"></span>
+                    <p><a href="/friends">friends</a></p>
+                </li>
+
+                <li>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <p><a href="/inbox">Inbox</a></p>
+                </li>
+                <li>
+                    <i class="fa fa-sign-out-alt"></i>
+                    <p><a href="/logout">Log out</a></p>
+                </li>
+            </ul>
+
+        </div>
+
+
+        <div class="middle-panel">
+
+            <div class="post create">
+                <div class="post-top">
+                    <form method="post" action="/share">
+                    <input type="text" name="post" placeholder="What's on your mind?" />
+                    <button type="submit">Submit</button>
+                    </form>
+                </div>
+
+            </div>
+
+            <div class="post">
+                {% block body %}
+                    {% include 'post_layout.html' %}
+                {% endblock %}
+            </div>
+
+
+        </div>
+        
+        
+    </div>
+
+</body>
+</html>
