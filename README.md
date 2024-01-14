@@ -1,5 +1,5 @@
 # university-projects
-This repository contains all projects and significant coding assignments I worked on while studying at the Faculty of Computing and Data Science, Alexandria University. <!-- Check the end of this README file for my [personal favourites](#favs) 😉✨.--> <br/>
+This repository contains all projects and significant coding assignments I worked on while studying at the Faculty of Computing and Data Science, Alexandria University. Details about each project will be included in the project's sub-repository. Check for [Highlighted Projects](#⭐-highlighted-projects) at the end. <br/>
 
 ## 🔎 Navigation
 - ### Level 1 [2021/2022]
@@ -19,16 +19,15 @@ This repository contains all projects and significant coding assignments I worke
         - [Introduction to Databases](/Term%204/Introduction%20to%20Databases/)   
         - [Machine Learning](/Term%204/Machine%20Learning/)
         - [Data Mining and Analytics](/Term%204/Data%20Mining%20and%20Analytics/)
-        - [Regression Analysis]() <!-- missing link isa atnayel arfa3o-->
+        - [Regression Analysis](https://github.com/verinak/regression-analysis-application)
     - #### [Summer (Jul 2023 - Sep 2023)](/Summer%20Level%202/)
         - [Field Training I "Internet of Things"](https://github.com/verinak/iot-sessions/tree/main/Final%20Project)
         - [Simulations](/Summer%20Level%202/Simulations/)
 
 
 ## ⭐ Highlighted Projects
-These are the projects that I'm most proud of, and that required the most time and effort. <br/><br/>
 
-- [Regression Analysis: Linear Regresion Web App]() <!-- missing link isa atnayel arfa3o-->
+- [Regression Analysis: Linear Regresion Web App](https://github.com/verinak/regression-analysis-application)
 - [Field Training I "Internet of Things": Arduino Mechanical Ventilator](https://github.com/verinak/iot-sessions/tree/main/Final%20Project)
 
 
