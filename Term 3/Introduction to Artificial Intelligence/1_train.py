@@ -1,7 +1,3 @@
-### Name: Verina Michel Asham Abdel Malak - فيرينا ميشيل عشم عبد الملاك
-### ID: 20221440977
-### Introduction to Artificial Intelligence Project
-
 ### Implementation of a neural network model to recognize handwritten digits using tenserflow ###
 
 import tensorflow as tf
