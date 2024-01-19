@@ -120,9 +120,9 @@ def dashboard():
 def share():
     print("start share")
     if request.method == 'POST':
-        title = request.form['post']
+        title = request.form['posttext']
+        print(title)
         user_id= session['user_id']
-
 
         cursor = db.cursor()
         query = "INSERT INTO Post(Title) VALUES( %s )"

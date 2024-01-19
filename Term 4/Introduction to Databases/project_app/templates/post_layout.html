@@ -1,9 +1,6 @@
 {% for p in posts %}
 <div class="post">
     <div class="post-top">
-        <div class="dp">
-            <img src="C:\Users\Tarek\Desktop\flask_app\venv\static\girl.jpg" alt="">
-        </div>
         <div class="post-info">
             {% if (p[-1] == 1) %}
             <p class="name"><em>{{p[0]}}</em>  posted</p>
@@ -12,7 +9,6 @@
             {% endif %}
             <span class="time">{{p[3]}}</span>
         </div>
-        <i class="fas fa-ellipsis-h"></i>
     </div>
 
     <div class="post-content">
@@ -20,14 +16,9 @@
     </div>
 
     <div class="post-bottom">
-        <div class="action">
-            <i class="far fa-thumbs-up"></i>
-            <span>Like</span>
-        </div>
-
-        <a href="/sharefrom&lt;{{p[2]}}&gt;"><div class="action">
+        <a class="linkbutton" href="/sharefrom&lt;{{p[2]}}&gt;"><div class="action">
             <i class="fa fa-share"></i>
-            <span>Share</span>
+            <span class="share">Share</span>
         </div></a>
     </div>
 </div>

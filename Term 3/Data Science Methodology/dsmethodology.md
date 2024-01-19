@@ -36,3 +36,8 @@ This is the historical data that covers sales from 2010-02-05 to 2012-11-01, in 
     5. Plot the relations between weekly sales vs. other numeric features and give insights.
 
 
+## Team Members
+
+Verina Michel<br/>
+Ola Mamdouh<br/>
+Mariem Nasr<br/>

@@ -29,5 +29,6 @@ This repository contains all projects and significant coding assignments I worke
 
 - [Regression Analysis: Linear Regresion Web App](https://github.com/verinak/regression-analysis-application)
 - [Field Training I "Internet of Things": Arduino Mechanical Ventilator](https://github.com/verinak/iot-sessions/tree/main/Final%20Project)
+- [Introduction to Databases: Simple Social Media Application](/Term%204/Introduction%20to%20Databases/)
 
 

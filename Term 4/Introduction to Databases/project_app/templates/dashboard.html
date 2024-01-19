@@ -25,31 +25,30 @@
         <div class="left-panel">
             <ul>
                 <li>
-                    <i class="fa fa-users"></i>
-                    <span class="profile"></span>
-                    <p><a href="/profile">My profile</a></p>
+                    <i class="fa fa-user-circle"></i>
+                    <p><a class="linkbutton" href="/profile">My Profile</a></p>
                 </li>
 
 
                 <li>
                     <i class="fa fa-flag"></i>
-                    <p><a href="/pages" class="button">pages</a></p>
+                    <p><a class="linkbutton" href="/pages" class="button">Pages</a></p>
 
                 </li>
 
                 <li>
                     <i class="fa fa-users"></i>
                     <span class="friends"></span>
-                    <p><a href="/friends">friends</a></p>
+                    <p><a class="linkbutton" href="/friends">Friends</a></p>
                 </li>
 
                 <li>
                     <i class="fab fa-facebook-messenger"></i>
-                    <p><a href="/inbox">Inbox</a></p>
+                    <p><a class="linkbutton" href="/inbox">Inbox</a></p>
                 </li>
                 <li>
                     <i class="fa fa-sign-out-alt"></i>
-                    <p><a href="/logout">Log out</a></p>
+                    <p><a class="linkbutton" href="/logout">Log Out</a></p>
                 </li>
             </ul>
 
@@ -61,14 +60,14 @@
             <div class="post create">
                 <div class="post-top">
                     <form method="post" action="/share">
-                    <input type="text" name="post" placeholder="What's on your mind?" />
-                    <button type="submit">Submit</button>
+                        <input class="myinput" type="text" name="posttext" placeholder="What's on your mind?" style="padding:5px;font-size:1em;"/>
+                        <input type="submit", value="Submit">
                     </form>
                 </div>
 
             </div>
 
-            <div class="post">
+            <div >
                 {% block body %}
                     {% include 'post_layout.html' %}
                 {% endblock %}

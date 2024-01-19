@@ -27,7 +27,9 @@ Android Library Application with Firebase database <br/>
     <img src="media/dark_4.jpg" alt="checkout screen dark mode" width="200px" style="border-radius:15px; margin:2px;"/>
 </div>
 
-## Contributors
+
+## Team Members
+
 Govany Magdy<br/>
 Sylvia Sobhy<br/>
 Verina Michel<br/>

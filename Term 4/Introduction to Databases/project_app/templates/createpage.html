@@ -3,22 +3,41 @@
 <head>
 	<title>Create Page</title>
 	<link rel="stylesheet" type="text/css" href="../static/pages.css">
+	<link rel="stylesheet" type="text/css" href="../static/profilestyle.css">
+	<link rel="stylesheet" type="text/css" href="../static/stylesign.css">
 </head>
 <body>
 	<header>
 		<h1>Create Page</h1>
 	</header>
 
-	<main>
-		<form method="post">
-			<label for="page-name">Page Name:</label>
-			<input type="text" id="page-name" name="page-name"><br>
-
-			<label for="page-email">Company Email:</label>
-			<input type="email" id="page-email" name="page-email"><br>
-
-			<button type="submit">Create</button>
-		</form>
+	<main class="main">
+		<div class="card">
+			<form method="post">
+				<table>
+					<tbody>
+						<tr>
+							<td>
+								<label for="page-name">Page Name</label>
+							</td>
+							<td>
+								<input class="myinput" type="text" id="page-name" name="page-name"><br/>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="page-email">Company Email</label>
+							</td>
+							<td>
+								<input class="myinput" type="email" id="page-email" name="page-email"><br/>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<br/>
+				<input type="submit" value="Create">
+			</form>
+		</div>
 	</main>
 
 </body>

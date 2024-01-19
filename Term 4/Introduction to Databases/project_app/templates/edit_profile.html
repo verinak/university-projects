@@ -6,28 +6,36 @@
 
     <!-- Custom Css -->
 		<link rel="stylesheet" href="..\static\profilestyle.css">
+    <link rel="stylesheet" href="../static/stylesign.css">
+
 </head>
 <body>
-
-    <!-- Main -->
-    <div class="main">
-        <div class="card">
-            <div class="card-body">
-                <i class="fa fa-pen fa-xs edit"></i>
-                <table>
-                    <tbody>
-                        <form method="post">
-                          <label for="phone">Phone:</label>
-                          <input type="tel" id="phone" name="phone" value="{{ user[5] }}"><br><br>
-                          <label for="about">About:</label>
-                          <textarea id="about" name="about">{{ user[7] }}</textarea><br><br>
-                          <button type="submit">Save Changes</button>
-                        </form>
-                      </tr>
-                    </tbody>
-                </table>
-            </div>
-          </div>       
-        </div>
-  </body>
+  <div class="main">
+    <div class="card">
+      <form method="post">
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <label for="phone">Phone</label>
+              </td>
+              <td>
+                <input class="myinput" type="tel" id="phone" name="phone" value="{{ user[5] }}"><br><br>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="about">About</label>
+              </td>
+              <td>
+                <textarea class="myinput" id="about" name="about">{{ user[7] }}</textarea><br><br>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <input type="submit", value="Save Changes">
+      </form>
+    </div>       
+  </div>
+</body>
 </html>

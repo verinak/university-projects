@@ -6,7 +6,14 @@
 
     <!-- Custom Css -->
 		<link rel="stylesheet" href="..\static\profilestyle.css">
+        <link rel="stylesheet" href="../static/style2.css">
 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-k6G4s6Gqo6IhVf9w3I5xo6T4lIqr3Ee8dF2C5Q6Qd1KqzKZvQk8M6s9yXIWtWt5LJx5g/0Z2lE6p3qzv1+PzgQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+            integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 
@@ -14,7 +21,6 @@
     <div class="main">
         <div class="card">
             <div class="card-body">
-                <i class="fa fa-pen fa-xs edit"></i>
                 <div>
                     <h3>{{ page[0] }}</h3>
                 </div>
@@ -28,8 +34,8 @@
         <div class="card">
             <div class="post-top">
                 <form method="post" action="/sharepage&lt;{{page_id}}&gt;">
-                    <input type="text" name="post" placeholder="Post to your page!" />
-                    <button type="submit">Submit</button>
+                    <input class="myinput pagepost" type="text" name="post" placeholder="Post to your page!" />
+                    <input class="pagebutton" type="submit" value="Submit">
                 </form>
             </div>
         </div>

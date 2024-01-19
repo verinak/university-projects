@@ -120,3 +120,28 @@ button{
 .register p a:hover{
     text-decoration: underline;
 }
+
+.field {
+    text-align: center;
+}
+
+input[type="submit"] {
+    padding: 10px 20px; 
+    background-color: #d4285e;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #bd2a58;
+}
+
+input[type="submit"]:active {
+    background-color: #ad0c3e;
+}
+
+
