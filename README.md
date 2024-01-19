@@ -1,7 +1,7 @@
 # university-projects
-This repository contains all projects and significant coding assignments I worked on while studying at the Faculty of Computing and Data Science, Alexandria University. Details about each project will be included in the project's sub-repository. Check for [Highlighted Projects](#⭐-highlighted-projects) at the end. <br/>
+This repository contains all projects and significant coding assignments I worked on while studying at the Faculty of Computing and Data Science, Alexandria University. Details about each project will be included in the project's sub-repository. Check for [Highlighted Projects](#highlighted-projects) at the end. <br/>
 
-## 🔎 Navigation
+## Navigation
 - ### Level 1 [2021/2022]
     - #### [Term 1 (Oct 2021 - Jan 2022)](/Term%201/)
         - [Programming I](/Term%201/Programming%20I/)
@@ -25,7 +25,7 @@ This repository contains all projects and significant coding assignments I worke
         - [Simulations](/Summer%20Level%202/Simulations/)
 
 
-## ⭐ Highlighted Projects
+## Highlighted Projects
 
 - [Regression Analysis: Linear Regresion Web App](https://github.com/verinak/regression-analysis-application)
 - [Field Training I "Internet of Things": Arduino Mechanical Ventilator](https://github.com/verinak/iot-sessions/tree/main/Final%20Project)
