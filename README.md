@@ -23,6 +23,10 @@ This repository contains all projects and significant coding assignments I worke
     - #### [Summer (Jul 2023 - Sep 2023)](/Summer%20Level%202/)
         - [Field Training I "Internet of Things"](https://github.com/verinak/iot-sessions/tree/main/Final%20Project)
         - [Simulations](/Summer%20Level%202/Simulations/)
+    - #### [Term 5 (Oct 2023 - Jan 2024)](/Term%205)
+        - [Data Science Tools and Software](Term%205/Data%20Science%20Tools%20and%20Software/)
+        - [Stochastic Processes]()
+        - [Operating Systems](Term%205/Operating%20Systems/)
 
 
 ## Highlighted Projects
