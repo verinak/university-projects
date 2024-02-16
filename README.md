@@ -25,7 +25,7 @@ This repository contains all projects and significant coding assignments I worke
         - [Simulations](/Summer%20Level%202/Simulations/)
     - #### [Term 5 (Oct 2023 - Jan 2024)](/Term%205)
         - [Data Science Tools and Software](Term%205/Data%20Science%20Tools%20and%20Software/)
-        - [Stochastic Processes]()
+        - [Stochastic Processes](https://github.com/verinak/hidden-markov-app)
         - [Operating Systems](Term%205/Operating%20Systems/)
 
 
@@ -34,5 +34,6 @@ This repository contains all projects and significant coding assignments I worke
 - [Regression Analysis: Linear Regresion Web App](https://github.com/verinak/regression-analysis-application)
 - [Field Training I "Internet of Things": Arduino Mechanical Ventilator](https://github.com/verinak/iot-sessions/tree/main/Final%20Project)
 - [Introduction to Databases: Simple Social Media Application](/Term%204/Introduction%20to%20Databases/)
+- [Stochastic Processes: Hidden Markov Application](https://github.com/verinak/hidden-markov-app)
 
 
