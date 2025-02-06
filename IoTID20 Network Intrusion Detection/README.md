@@ -10,3 +10,7 @@ We then fine-tune our SVM classifiers to find the best parameters for our model.
 
 Finally, we compare the performance of the various SVM models using different metrics and visualizations, to better understand their strengths and weaknesses, and find the most effective model.
 
+Ola Mamdouh<br/>
+Verina Michel<br/>
+Maria Anwar<br/>
+Marly Magdy<br/>
